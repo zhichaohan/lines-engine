@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(version: 20150421093311) do
     t.datetime "updated_at",                                     null: false
     t.string   "slug",             limit: 255
     t.string   "gplus_url",        limit: 255
+    t.string   "youtube_url",      limit: 255
     t.boolean  "featured",                       default: false
     t.string   "document",         limit: 255
     t.string   "short_hero_image", limit: 255
